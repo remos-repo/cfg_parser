@@ -1,0 +1,14 @@
+# nonterminal_list = rule.split() #split "A B C {D, E}" into [A, B, C]
+                # a, b = nonterminal_list[:2] #a=A, b=B
+                # if a.isupper() or b.isupper(): #if a or b is false there is a terminal
+                #     num +=1
+                #     x = f"{a} {b}" #A b / a B 
+                #     var = f"X{num}" #X1, X2, X3....
+                #     rule= rule.replace(f"{a} {b}", var) # "A B C" => "X1 C {D, E?}"
+
+                    #if  num_of_nonterminals[2:]> 2:
+                    
+                    non_terminals= {f"{key}":  rule}
+                    new_rule= {f"{var}": f"{x}"}
+                    grammar_dict.update(non_terminals)
+                    grammar_dict.update(new_rule)

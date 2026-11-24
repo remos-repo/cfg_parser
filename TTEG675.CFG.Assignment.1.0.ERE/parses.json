@@ -1,0 +1,99 @@
+{
+  "The man is walking in the park": [
+    {
+      "S": {
+        "NP": { "Det": "the", "N": "man" },
+        "VP": {
+          "AuxProg": "is",
+          "V-ing": "walking",
+          "PP": { "P": "in", "NP": { "Det": "the", "N": "park" } }
+        }
+      }
+    }
+  ],
+  "The dog has chased the cat": [
+    {
+      "S": {
+        "NP": { "Det": "the", "N": "dog" },
+        "VP": {
+          "AuxPerf": "has",
+          "V-en": "chased",
+          "NP": { "Det": "the", "N": "cat" }
+        }
+      }
+    }
+  ],
+  "The woman was speaking slowly": [
+    {
+      "S": {
+        "NP": { "Det": "the", "N": "woman" },
+        "VP": { "AuxProg": "was", "V-ing": "speaking", "Adv": "slowly" }
+      }
+    }
+  ],
+  "The cat and the dog have run quickly": [
+    {
+      "S": {
+        "NP": {
+          "NP": { "Det": "the", "N": "cat" },
+          "Conj": "and",
+          "NP2": { "Det": "the", "N": "dog" }
+        },
+        "VP": { "AuxPerf": "have", "V-en": "run", "Adv": "quickly" }
+      }
+    }
+  ],
+  "Who is seeing the man in the city": [
+    {
+      "S": {
+        "Wh": "who",
+        "VP": {
+          "AuxProg": "is",
+          "V-ing": "seeing",
+          "NP": { "Det": "the", "N": "man" },
+          "PP": { "P": "in", "NP": { "Det": "the", "N": "city" } }
+        }
+      }
+    }
+  ],
+  "The man saw the dog with the telescope": [
+    {
+      "S": {
+        "NP": { "Det": "the", "N": "man" },
+        "VP": {
+          "V": "saw",
+          "NP": { "Det": "the", "N": "dog" },
+          "PP": { "P": "with", "NP": { "Det": "the", "N": "telescope" } }
+        }
+      }
+    }
+  ],
+  "The cat and the dog chased the man": [
+    {
+      "S": {
+        "NP": {
+          "NP": { "Det": "the", "N": "cat" },
+          "Conj": "and",
+          "NP": { "Det": "the", "N": "dog" }
+        },
+        "VP": { "V": "chased", "NP": { "Det": "the", "N": "man" } }
+      }
+    }
+  ],
+  "Who will see the man in the city?": [
+    {
+      "S": {
+        "Wh": "who",
+        "VP": {
+          "Aux": "will",
+          "V": "see",
+          "NP": {
+            "Det": "the",
+            "N": "man"
+          },
+          "PP": { "P": "in", "NP": { "Det": "the", "N": "city" } }
+        }
+      }
+    }
+  ]
+}

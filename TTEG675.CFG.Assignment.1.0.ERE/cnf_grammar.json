@@ -1,0 +1,178 @@
+{
+    "S": [
+        "NP VP",
+        "X1 S",
+        "X3 VP",
+        "X5 NP",
+        "Wh VP"
+    ],
+    "NP": [
+        "Adj N",
+        "Det  N",
+        "X7 PP",
+        "dog",
+        "cat",
+        "man",
+        "woman",
+        "park",
+        "city",
+        "telescope",
+        "X9 NP",
+        "NP PP"
+    ],
+    "VP": [
+        "X11 NP",
+        "X14 PP",
+        "Aux V",
+        "V NP",
+        "X17 PP",
+        "V Adv",
+        "see",
+        "chase",
+        "walk",
+        "run",
+        "speak",
+        "X19 VP",
+        "X21 NP",
+        "X24 PP",
+        "X27 PP",
+        "X29 Adv",
+        "X31 NP",
+        "X33 Adv"
+    ],
+    "PP": [
+        "P NP"
+    ],
+    "Det": [
+        "the",
+        "a",
+        "this",
+        "that"
+    ],
+    "Adj": [
+        "big",
+        "small",
+        "happy",
+        "sad"
+    ],
+    "N": [
+        "dog",
+        "cat",
+        "man",
+        "woman",
+        "park",
+        "city",
+        "telescope"
+    ],
+    "V": [
+        "see",
+        "chase",
+        "walk",
+        "run",
+        "speak"
+    ],
+    "Aux": [
+        "can",
+        "will",
+        "must",
+        "should"
+    ],
+    "AuxProg": [
+        "is",
+        "are",
+        "was",
+        "were"
+    ],
+    "AuxPerf": [
+        "has",
+        "have",
+        "had"
+    ],
+    "V-ing": [
+        "seeing",
+        "chasing",
+        "walking",
+        "running",
+        "speaking"
+    ],
+    "V-en": [
+        "seen",
+        "chased",
+        "walked",
+        "run",
+        "spoken"
+    ],
+    "Adv": [
+        "quickly",
+        "slowly",
+        "yesterday",
+        "today"
+    ],
+    "P": [
+        "in",
+        "with",
+        "on"
+    ],
+    "Conj": [
+        "and",
+        "or",
+        "but"
+    ],
+    "Wh": [
+        "who",
+        "what",
+        "where",
+        "when"
+    ],
+    "X1": [
+        "S Conj"
+    ],
+    "X3": [
+        "Wh NP"
+    ],
+    "X5": [
+        "Wh VP"
+    ],
+    "X7": [
+        "Det N"
+    ],
+    "X9": [
+        "NP Conj"
+    ],
+    "X11": [
+        "Aux V"
+    ],
+    "X14": [
+        "X13 NP"
+    ],
+    "X13": [
+        "Aux V"
+    ],
+    "X17": [
+        "V NP"
+    ],
+    "X19": [
+        "VP Conj"
+    ],
+    "X21": [
+        "AuxProg V-ing"
+    ],
+    "X24": [
+        "X23 NP"
+    ],
+    "X23": [
+        "AuxProg V-ing"
+    ],
+    "X27": [
+        "AuxProg V-ing"
+    ],
+    "X29": [
+        "AuxProg V-ing"
+    ],
+    "X31": [
+        "AuxPerf V-en"
+    ],
+    "X33": [
+        "AuxProg V-en"
+    ]
+}
